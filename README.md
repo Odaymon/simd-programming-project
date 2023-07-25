@@ -25,7 +25,7 @@ Number of Runs: 30
 # Screenshots:
 
 <picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/Odaymon/simd-programming-project/blob/8f27220942e7a09c4fbb98cca0a817d36b2cda98/size20.png">
+  <img alt="Result of Array Size 2 raise to 20" src="size20.png">
 </picture>
 
 
