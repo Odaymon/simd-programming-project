@@ -1,0 +1,4 @@
+^C:\USERS\STEVENJOHN.P\SOURCE\REPOS\SIMD_PROJECT\ASMFUNC1.ASM
+C:\Users\StevenJohn.P\AppData\Local\bin\NASM\nasm -fwin64 asmfunc1.asm
+^C:\USERS\STEVENJOHN.P\SOURCE\REPOS\SIMD_PROJECT\ASMFUNC2.ASM
+C:\Users\StevenJohn.P\AppData\Local\bin\NASM\nasm -fwin64 asmfunc2.asm
