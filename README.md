@@ -26,6 +26,8 @@ Number of Runs: 30
 
 <picture>
   <img alt="Result of Array Size 2 raise to 20" src="size20.png">
+  <img alt="Result of Array Size 2 raise to 24" src="size24.png">
+  <img alt="Result of Array Size 2 raise to 30" src="size30.png">
 </picture>
 
 
