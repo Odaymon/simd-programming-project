@@ -22,4 +22,4 @@ Number of Runs: 30
 - 2^24 Execution Time:  microseconds (ms)
 - 2^30 Execution Time:  microseconds (ms)
 
-Screenshot:
+#Screenshots:
