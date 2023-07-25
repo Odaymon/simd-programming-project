@@ -25,9 +25,7 @@ Number of Runs: 30
 # Screenshots:
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/size20.png">
-  <source media="(prefers-color-scheme: light)" srcset="/size24.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="/size30.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="[/size30.png](https://github.com/Odaymon/simd-programming-project/blob/8f27220942e7a09c4fbb98cca0a817d36b2cda98/size20.png)https://github.com/Odaymon/simd-programming-project/blob/8f27220942e7a09c4fbb98cca0a817d36b2cda98/size20.png">
 </picture>
 
 
