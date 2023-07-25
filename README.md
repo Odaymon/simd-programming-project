@@ -23,8 +23,14 @@ Number of Runs: 30
 - 2^30 Execution Time:  microseconds (ms)
 
 # Screenshots:
-/size20.png
 
-/size24.png
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/size20.png">
+  <source media="(prefers-color-scheme: light)" srcset="/size24.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="/size30.png">
+</picture>
 
-/size30.png
+
+
+
+
