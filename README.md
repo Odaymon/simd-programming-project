@@ -22,10 +22,12 @@ The Number of Runs: 30 and the basis for error checking is the C version.
 - Data Transfer Host to Device: 0.361693 microseconds (ms)
 - Data Transfer Device to Host: 0.322045 microseconds (ms)
 - Total Execution Time with Page Overhead: 0.754762 microseconds (ms)
+- ------
 - 2^24 Execution Time: 1.0628 microseconds (ms)
 - Data Transfer Host to Device: 5.564853 microseconds (ms)
 - Data Transfer Device to Host: 5.153755 microseconds (ms)
 - Total Execution Time with Page Overhead: 11.781408 microseconds (ms)
+- ------
 - 2^30 Execution Time: 41.282 microseconds (ms)
 - Data Transfer Host to Device: 357.2177 microseconds (ms)
 - Data Transfer Device to Host: 322.7327 microseconds (ms)
