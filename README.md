@@ -35,7 +35,12 @@ The Number of Runs: 30 and the basis for error checking is the C version.
 
 # Analysis of Results
 
-Out of all the 4 Versions, 
+For the analysis of the performance of each version, I've used the formula below to compare each programs performance.
+<picture>
+  <img alt="Formula: Percentage Increase " src="Formula.png">
+</picture>
+
+At the initial look of the execution time, the CUDA version performed the best in majority of the input size except for the input size is 2^24, where the SIMD version performed better than the CUDA version.
 
 # Screenshots:
 
