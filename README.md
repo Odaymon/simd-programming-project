@@ -40,7 +40,18 @@ For the analysis of the performance of each version, I've used the formula below
   <img alt="Formula: Percentage Increase " src="Formula.png">
 </picture>
 
-At the initial look of the execution time, the CUDA version performed the best in majority of the input size except for the input size is 2^24, where the SIMD version performed better than the CUDA version.
+At the initial look of the execution time, the CUDA version performed the best in majority of the input size except for the input size is 2^24, where the SIMD version performed better than the CUDA version. Although both SIMD and CUDA is faster than C and non SIMD x86-64 because SIMD and CUDA both utilize parallel processing. Where CUDA can process up to 1024 at a time while SIMD can process 32 bits at a time or 8 floating points.
+
+Now for the analysis of the results using the formula given above. Below are the results and analysis.
+### 2^20
+## C vs non SIMD x86-64
+
+## C vs SIMD x86-64
+## C vs CUDA
+
+### 2^24
+
+### 2^30
 
 # Screenshots:
 
