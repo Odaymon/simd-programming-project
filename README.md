@@ -42,26 +42,26 @@ For the analysis of the performance of each version, I've used the formula below
 
 At the initial look of the execution time, the CUDA version performed the best in majority of the input size except for the input size is 2^24, where the SIMD version performed better than the CUDA version. Although both SIMD and CUDA is faster than C and non SIMD x86-64 because SIMD and CUDA both utilize parallel processing. Where CUDA can process up to 1024 at a time while SIMD can process 32 bits at a time or 8 floating points.
 
-Now for the analysis of the results using the formula given above. Below are the results and analysis.
-### 2^20
+Now for the analysis of the results using the formula given above. Below are the results and analysis. 
+### Comparison of performance with input size of 2^20
 ## C (Final Value) vs non SIMD x86-64 (Starting Value)
 - The non SIMD x86-64 version performed 59.03% better than the C version in terms of execution time.
 ## C (Final Value) vs SIMD x86-64 (Starting Value)
-- The SIMD x86-64 version performed 1,247.07% better than the C version in terms of execution time and can see a significant jump in comparison with the improvement from the non SIMD x86-64 version.
+- The SIMD x86-64 version performed 1,247.07% better than the C version in terms of execution time and can see a significant jump in comparison with the improvement from the non SIMD x86-64 version. This is due to the parallel capability of SIMD compared to the C version where it's not utilizing parallel processing.
 ## C (Final Value) vs CUDA (Starting Value)
 - The CUDA version performed 1,011,255.98% better than the C version in terms of execution time and can see a significant jump in comparison with the improvement from both the non SIMD x86-64 and SIMD x86-64 version. Which is amazing as it's an improvement by a million % in comparison to the non SIMD version with only a 59.03% improvement. This shows how much an impact the parallel processing through threads in CUDA in comparison to sequential processes.
 ## non SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
+- The non SIMD x86-64 performed 37.12% better than the C version which could be affected by other factors like the implementation of C vs non SIMD x86-64.
 ## non SIMD x86-64 (Final Value) vs SIMD x86-64 (Starting Value)
-- 
+- The non SIMD x86-64 performed 747.07% less than the SIMD x86-64 version and which could be attribute to the parallel processing capability of the SIMD in contrast with the non SIMD x86-64.
 ## non SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
+- The non SIMD x86-64 performed 635,862.06% less than the CUDA version which is a huge jump compared to the other version and it is also due to the higher parallel capability of CUDA and optimized implementation.
 ## SIMD x86-64 (Final Value) vs C (Starting Value)
 - 
 ## SIMD x86-64 (Final Value) vs non SIMD x86-64 (Starting Value)
 - 
 ## SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
+- The SIMD x86-64 performed 74,977.97% less than the CUDA version but this is also due to the number of threads and blocks the CUDA has and is built for parallel processing.
 ## CUDA (Final Value) vs C (Starting Value)
 - 
 ## CUDA (Final Value) vs non SIMD x86-64 (Starting Value)
@@ -70,56 +70,7 @@ Now for the analysis of the results using the formula given above. Below are the
 - 
 
 
-### 2^24
-## C (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## C (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-## C (Final Value) vs CUDA (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
-## CUDA (Final Value) vs C (Starting Value)
-- 
-## CUDA (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## CUDA (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-
-### 2^30
-## C (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## C (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-## C (Final Value) vs CUDA (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-## non SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## SIMD x86-64 (Final Value) vs CUDA (Starting Value)
-- 
-## CUDA (Final Value) vs C (Starting Value)
-- 
-## CUDA (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
-## CUDA (Final Value) vs SIMD x86-64 (Starting Value)
+# Conclusion
 - 
 
 # Screenshots:
