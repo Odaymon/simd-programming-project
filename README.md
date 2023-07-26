@@ -27,17 +27,32 @@ Number of Runs: 30
 
 # Screenshots:
 
-## Result of Array Size 2 raise to 20
+## C, x86-64 non SIMD and SIMD Result of Array Size 2 raise to 20
 <picture>
   <img alt="Result of Array Size 2 raise to 20" src="size20.png">
 </picture>
 
-## Result of Array Size 2 raise to 24
+## C, x86-64 non SIMD and SIMD Result of Array Size 2 raise to 24
 <picture>
   <img alt="Result of Array Size 2 raise to 24" src="size24.png">
 </picture>
 
-## Result of Array Size 2 raise to 30
+## C, x86-64 non SIMD and SIMD Result of Array Size 2 raise to 30
 <picture>
   <img alt="Result of Array Size 2 raise to 30" src="size30.png">
+</picture>
+
+## CUDA Result of Array Size 2 raise to 20
+<picture>
+  <img alt="Result of Array Size 2 raise to 20" src="CUDASize20.png">
+</picture>
+
+## CUDA Result of Array Size 2 raise to 24
+<picture>
+  <img alt="Result of Array Size 2 raise to 24" src="CUDASize24.png">
+</picture>
+
+## CUDA Result of Array Size 2 raise to 30
+<picture>
+  <img alt="Result of Array Size 2 raise to 30" src="CUDASize30.png">
 </picture>
