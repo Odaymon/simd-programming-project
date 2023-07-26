@@ -57,21 +57,26 @@ Now for the analysis of the results using the formula given above. Below are the
 ## non SIMD x86-64 (Final Value) vs CUDA (Starting Value)
 - The non SIMD x86-64 performed 635,862.06% less than the CUDA version which is a huge jump compared to the other version and it is also due to the higher parallel capability of CUDA and optimized implementation.
 ## SIMD x86-64 (Final Value) vs C (Starting Value)
-- 
+- The SIMD x86-64 performed 92.57% better than the C when computed through the formula.
 ## SIMD x86-64 (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
+- The SIMD x86-64 performed 88.19% better than the non SIMD x86-64 when computed through the formula. And it is due to the parallel computing capability of the SIMD x86-64 version.
 ## SIMD x86-64 (Final Value) vs CUDA (Starting Value)
 - The SIMD x86-64 performed 74,977.97% less than the CUDA version but this is also due to the number of threads and blocks the CUDA has and is built for parallel processing.
 ## CUDA (Final Value) vs C (Starting Value)
-- 
+- The CUDA version performed 99.99% better than the C version when computed to the formula and it's due to the CUDA version's parallel processing capability with up to 1024 threads and many blocks.
 ## CUDA (Final Value) vs non SIMD x86-64 (Starting Value)
-- 
+- The CUDA version also performed 99.98% better than the non SIMD version when computed to the formula and the CUDA's performance is still a lot better due to the same reason as with the C version.
 ## CUDA (Final Value) vs SIMD x86-64 (Starting Value)
-- 
-
+- The CUDA version performed 99.86% better than the SIMD version as even though the SIMD version also has parallel computing capability, the amount of parallel process the current implementation of the CUDA version is a lot higher than with the current implementation of the SIMD version.
 
 # Conclusion
-- 
+- By computing the performance difference of each version with each other we could notice that the top and lowest performer almost remains the same with the following ordering below:
+1. Fastest: CUDA
+2. SIMD
+3. non SIMD
+4. Slowest: C
+
+- We could also observe that as the number of input increase the gap of the execution time difference between CUDA and SIMD is getting smaller as the CUDA data transfer is taking more time even though the actual kernel process is performing fast as it now requires higher amount of data to be transferred to and from the Device and Host. We could also observe that the SIMD version outperformed the CUDA version when the input size was 2^24 which could be affected by other factors such as the device where it was executed. As for the C version and non SIMD version, we could observe that the performance of the C version is quite slow in comparison with the other 3 versions. Even though the non SIMD version is also a sequential one but for some reason it outperforms C which could be influenced by the device where it was executed given that during runtime the C version runs first then the non SIMD then SIMD version.
 
 # Screenshots:
 
